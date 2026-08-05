@@ -412,17 +412,11 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
     libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libmmhardware \
     libqtigef \
     libresampler \
-    libsndmonitor \
-    libspkrprot \
     libvideoNS \
     libxlog \
     HDR10plus \
