@@ -375,7 +375,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vili/proprietary/vendor_ramdisk/lib/firmware/st_fts_k3s.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k3s.ftb
 
 PRODUCT_PACKAGES += \
-    audio.primary.vili \
+    audio.primary.lahaina \
+    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -387,11 +388,18 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libaudioroute_ext \
+    libbatterylistener \
     libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
     libhdmipassthru \
+    libhfp \
     libmmhardware \
     libqtigef \
     libresampler \
+    libsndmonitor \
+    libspkrprot \
+    libssrec \
     libvideoNS \
     libxlog \
     HDR10plus \
@@ -750,8 +758,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
     vendor_lib_rfsa_adsp_misound_res_spk_bin \
-    liba2dpoffload_odm \
-    libssrec_odm \
     vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
     vendor.xiaomi.hardware.citsensorservice@1.1-service \
