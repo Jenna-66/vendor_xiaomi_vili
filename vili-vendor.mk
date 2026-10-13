@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vili/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/vili/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/vili/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/vili/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/vili/proprietary/vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc \
     vendor/xiaomi/vili/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/vili/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
@@ -375,33 +374,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vili/proprietary/vendor_ramdisk/lib/firmware/st_fts_k3s.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k3s.ftb
 
 PRODUCT_PACKAGES += \
-    audio.primary.lahaina \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
-    libadm \
     libaudcal \
-    libaudio_log_utils \
-    libaudiocloudctrl \
-    libaudioconfigstore \
-    libaudioparsers \
-    libaudioroute_ext \
-    libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
-    libhdmipassthru \
-    libhfp \
-    libmmhardware \
-    libqtigef \
-    libresampler \
-    libsndmonitor \
-    libspkrprot \
-    libssrec \
-    libvideoNS \
-    libxlog \
     HDR10plus \
     com.qti.eeprom.vili_ofilm_ov16a1q_bl24sa64_front_eeprom \
     com.qti.eeprom.vili_sunny_imx355_gt24p64e_ultra_eeprom \
@@ -551,7 +528,6 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
-    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     libAF \
     libFlickerDet \
     libI420colorconvert \
@@ -706,8 +682,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cameraperf@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.1 \
     vendor.xiaomi.hardware.dtool@1.0 \
     vendor_lib_rfsa_adsp_bm2n06_bin \
     vendor_lib_rfsa_adsp_bm2n08_bin \
@@ -758,9 +732,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
     vendor_lib_rfsa_adsp_misound_res_spk_bin \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service \
     vendor.xiaomi.hardware.dtool@1.0-service \
     init.qcom.sensors \
     sensors.qti \
